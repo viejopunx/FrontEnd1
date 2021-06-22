@@ -1,78 +1,60 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    width: 1440px;
+    font-weight: 400px;
     font-size: 15px;
-    line-height: 12,7px;
+    width: 1440px;
+    height: 1024px
 }
 
-img {
-    max-width: 100px;
-}
-
-header { 
+header {
     background-color: #E5E5E5;
+    text-align: center;
+}
+
+header div img {
+    height: 147px;
+    width: 100px;
+    margin: 0 auto
+}
+
+header h1 {
+    font-size: 35px
+}
+
+main{
+    width: 1041px;
+    margin: 0 auto
 }
 
 h1,
-h3 { 
-    letter-spacing: 8px;
-    color: #005677;
+h2 {
     background-color: #C4C4C4;
-    font-weight: 700;
+    color: #005677;
+    letter-spacing: 8px;
 }
 
-h3 {
-    padding-left: 8px;
-}
-
-span{
+span {
     font-weight: bold;
 }
 
-ul.bullet li{
-    list-style-type:disc;
+ul {
+    list-style-type: none;
+    line-height: 23px;
 }
 
-ul.nested{
+ul li ul {
     display:inline-block;
     vertical-align: top;
-    padding-left: 8px;
 }
 
-ul li{
-    list-style-type: none;
-    vertical-align: top;
-}
-
-.italic{
-    font-style: italic;
-}
-
-.titular {
-    text-align: center;
-}
-
-.center {
-    display:block;
-    margin:auto
-}
-
-.align{
-    text-align: center;
-}
-
-.padding{
-    padding-left: 12px;
+.bullet {
+    list-style-type: disc;
 }
 
 footer {
-    font-size: 20px;
-    margin: auto;
-    height: 37px;
-    line-height: 37px;
     background-color: #005677;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
     color: #FFFFFF;
-    font-weight: 700;
-    vertical-align: middle;
 }
