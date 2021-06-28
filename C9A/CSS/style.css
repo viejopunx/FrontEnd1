@@ -1,0 +1,91 @@
+body {
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.ofertas {
+    background-color:#222222;
+    color:#F3F3F3;
+    font-size: 10px;
+}
+
+.navBar {
+    background-color:#F0A83E;
+    color:#FFFFFF;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.banner {
+    background-image: url('../IMG/Bowl.png');
+    background-size: contain;
+    height: 410px;
+    text-align: center;
+}
+
+.noBullet {
+    list-style-type: none;
+}
+
+.fa-paw {
+    height: 13px;
+    width: 13px;
+}
+
+.titulo1 {
+    font-size: 30px;
+    color: #3C2313;
+    text-align:center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo2 {
+    font-size: 16px;
+}
+
+.titulo3 {
+    font-size: 16px;
+    background-color: #F0A83E;
+    color:#FFFFFF;
+}
+
+.productos {
+    background-color:#FBFAF6;
+}
+
+.color1 {
+    color:#F0A83E;
+}
+
+.color2 {
+    color:#FFFFFF;
+}
+
+.color3 {
+    color:#8A8787;
+}
+
+.copyright {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contacto {
+    background-color: #3C2313;
+}
+
+footer .fas, footer .far {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    background-color: #8A8787;
+    text-align: center;
+    border-radius: 50%;
+}
