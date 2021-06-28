@@ -1,48 +1,147 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0px;
     border: 0px;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     width: 1024px;
-    height: 1024px;
 }
 
-header .barDiscount {
+header {
     width: 1024px;
-    height: 101px;
-    background: #1CD1B0;
-    padding: 10px;
+    position:absolute;
 }
 
-header .titulo {    
+.fixedBar {
+    position: fixed;
+    height: 38px;
     width: 1024px;
+    font-size: 15px;
+    background-color: #1CD1B0;
+    line-height: 38px;
+    text-indent: 10px;
+    z-index: 20;
+}
+
+.titleBar {
+    margin-top: 38px;
     height: 101px;
-    padding: 28px;
-    background: #00669F;
+    font-size: 40px;
+    background-color: #00669F;
+    line-height: 101px;
+    text-indent: 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
 main {
-    position:relative;
-    height: 532px;
-    border: red solid 5px;
+    height: 834px;
+    position: absolute;
 }
 
-section {
-    position:absolute;
+.section {
+    position: relative;
     width: 300px;
+    height: 533px;
+    margin-top: 294px;
 }
 
-.roundImg {
-    position:relative;
+.left {
+    position:absolute;
+    left: 32px;
+}
+
+.middle {
+    position: absolute;
+    left: 362px;
+}
+
+.right {
+    position: absolute;
+    left: 692px;
+}
+
+.heart {
+    position:absolute;
+    left:21px;
+    top:16px;
+}
+
+.background {
+    width: 300px;
+    height: 197px;
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.img1 {
+    background-image: url('../IMG/Fondo\ 1.png');
+}
+
+.img2 {
+    background-image: url('../IMG/Fondo\ 2.png');
+}
+
+.avatar {
+    position: absolute;
     border-radius: 50%;
+    left:90px;
+    top:128px;
+}
+
+.textBox {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 336px;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title1 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 74px;
+    margin-left: 89px;
+}
+
+.title2 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 74px;
+    margin-left: 65px;
+}
+
+.text {
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    padding:119px 17px 104px;
+}
+
+.button {
+    position: absolute;
+    background-color: #00669F;
+    width: 128px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    top:269px;
+    left: 85px;
+    color: #FFFFFF;
 }
 
 footer {
-    padding: 16px 671px 16px 16px;
+    position: absolute;
+    background-color: #00669f;
+    color: #FFF9F9;
+    font-size: 16px;
     width: 1024px;
     height: 51px;
-    background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 51px;
+    top:972px;
+    text-indent: 16px;
 }
