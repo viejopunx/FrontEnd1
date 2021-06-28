@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    width: 1024px;
+    height: 1024px;
+}
+
+header .barDiscount {
+    width: 1024px;
+    height: 101px;
+    background: #1CD1B0;
+    padding: 10px;
+}
+
+header .titulo {    
+    width: 1024px;
+    height: 101px;
+    padding: 28px;
+    background: #00669F;
+}
+
+main {
+    position:relative;
+    height: 532px;
+    border: red solid 5px;
+}
+
+section {
+    position:absolute;
+    width: 300px;
+}
+
+.roundImg {
+    position:relative;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 16px 671px 16px 16px;
+    width: 1024px;
+    height: 51px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

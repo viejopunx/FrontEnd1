@@ -1,0 +1,10 @@
+resetear pagina en css
+
+* {
+box-sizing: border-box
+margin: 0
+padding: 0
+}
+
+Flexbox: propiedades inherit, padre e hijo
+
