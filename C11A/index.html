@@ -5,45 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C11A - Flexbox</title>
+    <!-- Link a CSS -->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- Link a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="hContainer">
-            <p>LOGO</p>
+        <div>
+            <img src="IMG/Logo.png" alt="Logo Front&Pizza" class="logo">
         </div>
-        <nav class="hContainer">
-            <ul class="items">
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#">Ranking</a></li>
-                <li class="item"><a href="#">Promoción</a></li>
-                <li class="item"><a href="#">Contacto</a></li>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ranking</a></li>
+                <li><a href="#">Promoción</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
-
     <main>
-        <div>
-            <p>a</p>
-        </div>
-        <div>
-            <p>b</p>
-        </div>
+        <section class="left">
+            <p>Envio Gratis <span>comprando</span> 2 pizzas</p>
+        </section>
+        <section class="right">
+            <p class="rightTitle">Podio de pizzas</p>
+            <div class="podio">
+                <p class="top">Pizzas top 5</p>
+                <ol>
+                    <li>Muzzarella</li>
+                    <li>Hawaiana</li>
+                    <li>Jamon & Morron</li>
+                    <li>Fugazetta</li>
+                    <li>Calabresa</li>
+                </ol>
+            </div>
+            <div class="falling">
+                <img src="IMG/PizzaFalling.jpg" alt="Pizza Falling">
+            </div>
+        </section>
     </main>
-
     <footer>
-        <nav class="fContainer">
-            <ul class="items">
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#">Ranking</a></li>
-                <li class="item"><a href="#">Promoción</a></li>
-                <li class="item"><a href="#">Contacto</a></li>
+        <div class="footerList">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ranking</a></li>
+                <li><a href="#">Promoción</a></li>
             </ul>
-        </nav>
-        <div class="fContainer fContainer2">
-            <p>LOGO</p>
+        </div>
+        <div>
+            <img src="IMG/Logo.png" alt="Logo Front&Pizza" class="logo">
         </div>
     </footer>
-
 </body>
 </html>
