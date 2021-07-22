@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    position:fixed;
+    z-index: 10;
+}
+
+.header1 {
+    background-color: #D1891C;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.header2 {
+    background-color: #00669F;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:whitesmoke
+}
+
+section {
+    position: relative;
+    width: 300px;
+    border-radius: 15px 15px 0% 0%;
+    margin: 5% 2%;
+    z-index: 1;
+    background-color:gainsboro;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.corazon {
+    position: absolute;
+    max-width: 2rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+.background {
+    width: 100%;
+    border-radius: 15px 15px 0% 0%;
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    width: 50%;
+    top: 105px;
+    left: 75px;
+    z-index: 9;
+}
+
+.displayNone {
+    display: none;
+}
+
+.texto {
+    position: relative;
+    padding: 82px 15px 15px;
+    height:max-content;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.verMas {
+    background: #00669F;
+    border-radius: 7px;
+    color: #F3F3F3;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    border: none;
+}
+
+.añadir {
+    position:fixed;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 10;
+    background: #00669F;
+    color: #F3F3F3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    bottom: 6vh;
+    right: 2vw;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    bottom: -94px;
+    padding: 0.5rem;
+}
+
+footer p {
+    color: white;
+    justify-self: center;
+    margin: auto;
+    font-size: 0.8rem;
+}
+
+footer img {
+    max-height: 20px;
+    justify-self: flex-end;
+    padding: auto;
+}
+
+@media (max-width: 480px) {
+    .oculto {
+        display: none;
+    }
+
+    .displayBlock {
+        display: none;
+    }
+
+    .displayNone {
+        display: block;
+    }
+
+}
+
+@media (min-width:780px) {
+    .añadir {
+        bottom: 50vh;
+    }
+    
+}
